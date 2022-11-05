@@ -10,7 +10,7 @@ from datetime import datetime
 
 # Utils
 import joblib 
-pipe_lr = joblib.load(open("models/emotion_classifier_pipe_lr_03_june_2021.pkl","rb"))
+pipe_lr = joblib.load(open("Model_trained.pkl","rb"))
 
 
 # Track Utils
